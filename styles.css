@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+}
+
+#background-img{
+    aspect-ratio: 2/4.6;
+    width: 300px;
+    position: relative;
+}
+
+#logo{
+    position: absolute;
+    top: 100px;
+    background-color: black;
+    width: 300px;
+}
+
+#logo img{
+    width: 300px;
+}
+
+#photo-creds{
+    font-family: "Qwitcher Grypen", cursive;
+    font-weight: 900;
+    font-style: italic;
+    position: absolute;
+    bottom: -10px;
+}
