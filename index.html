@@ -25,15 +25,15 @@
             <h3>You know you want to</h3>
             <br>
             <form>
-                <h3>Let's do this!</h3>
                 <div id="form-container">
                     <div id="form-left-side">
+                        <h3>Let's do this!</h3>
                         <label for="first-name">FIRST NAME</label>
                         <input name="first-name" type="text">
                         <label for="email">EMAIL</label>
                         <input name="email" type="email">
                         <label for="password">PASSWORD</label>
-                        <input name="password" type="password">
+                        <input name="password" type="password" minlength="8">
                     </div>
                     <div id="form-right-side">
                         <label for="last-name">LAST NAME</label>
@@ -41,11 +41,11 @@
                         <label for="phone-number">PHONE NUMBER</label>
                         <input name="phone-number" type="number">
                         <label for="confirm-passowrd">CONFIRM PASSWORD</label>
-                        <input name="confirm-password" type="password">
+                        <input name="confirm-password" type="password" minlength="8">
                     </div>
                 </div>
+                <button type="submit">Create Account</button>
             </form>
-            <span>Create Account</span>
             <h3>Already have an account? Log in</h3>
         </div>
     </div>
