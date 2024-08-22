@@ -3,8 +3,8 @@ body{
 }
 
 #background-img{
-    aspect-ratio: 2/4.6;
-    width: 300px;
+    aspect-ratio: 2/3.5;
+    width: 400px;
     position: relative;
 }
 
@@ -12,11 +12,11 @@ body{
     position: absolute;
     top: 100px;
     background-color: black;
-    width: 300px;
+    width: 400px;
 }
 
 #logo img{
-    width: 300px;
+    width: 400px;
 }
 
 #photo-creds{
@@ -25,4 +25,51 @@ body{
     font-style: italic;
     position: absolute;
     bottom: -10px;
+}
+
+#container{
+    display: flex;
+}
+
+#right-side{
+    align-self: center;
+    margin-top: 100px;
+    padding-left: 100px;
+    padding-right: 200px;
+    width: 100%;
+}
+
+h2, h3{
+    font-family: sans-serif;
+}
+
+label{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    font-style: normal;
+    display: block;
+}
+
+#form-container{
+    display: flex;
+    gap: 80px;
+}
+
+form{
+    padding: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+span{
+    font-family: sans-serif;
+    background-color: #596D48;
+    margin-top: 30px;
+    display: block;
+    width: 150px;
+    padding: 10px 30px;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: 600;
+    color: white;
 }
