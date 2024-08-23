@@ -29,19 +29,19 @@
                     <div id="form-left-side">
                         <h3>Let's do this!</h3>
                         <label for="first-name">FIRST NAME</label>
-                        <input name="first-name" type="text">
+                        <input name="first-name" type="text" minlength="3" required>
                         <label for="email">EMAIL</label>
-                        <input name="email" type="email">
+                        <input name="email" type="email" minlength="3" required>
                         <label for="password">PASSWORD</label>
-                        <input name="password" type="password" minlength="8">
+                        <input class="passwords" name="password" required type="password" minlength="8">
                     </div>
                     <div id="form-right-side">
                         <label for="last-name">LAST NAME</label>
-                        <input name="last-name" type="text">
+                        <input name="last-name" type="text" minlength="3" required>
                         <label for="phone-number">PHONE NUMBER</label>
-                        <input name="phone-number" type="number">
+                        <input name="phone-number" type="number" required minlength="3">
                         <label for="confirm-passowrd">CONFIRM PASSWORD</label>
-                        <input name="confirm-password" type="password" minlength="8">
+                        <input class="passwords" name="confirm-password" required type="password" minlength="8">
                     </div>
                 </div>
                 <button type="submit">Create Account</button>

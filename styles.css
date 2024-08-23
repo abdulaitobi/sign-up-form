@@ -4,7 +4,7 @@ body{
 
 #background-img{
     aspect-ratio: 2/3.5;
-    width: 400px;
+    width: 26vw;
     position: relative;
 }
 
@@ -12,11 +12,11 @@ body{
     position: absolute;
     top: 100px;
     background-color: black;
-    width: 400px;
+    width: 26vw;
 }
 
 #logo img{
-    width: 400px;
+    width: 26vw;
 }
 
 #photo-creds{
@@ -24,7 +24,7 @@ body{
     font-weight: 900;
     font-style: italic;
     position: absolute;
-    bottom: -10px;
+    bottom: -1vw;
 }
 
 #container{
@@ -82,4 +82,14 @@ button:hover{
 
 #form-right-side{
     margin-top: 47px;
+}
+
+.passwords:invalid{
+    border-color: red;
+}
+
+input:focus{
+    outline: none;
+    border-color: rgb(0, 162, 255);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
